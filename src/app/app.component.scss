@@ -1,0 +1,69 @@
+/* Define o estilo da barra de ferramentas */
+mat-toolbar {
+    height: 64px;
+    padding: 0 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Define o estilo do título da barra de ferramentas */
+  mat-toolbar span {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  /* Define o estilo do card principal */
+  mat-card {
+    margin: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Define o estilo da tabela */
+  mat-table {
+    width: 100%;
+    overflow-x: auto;
+    display: block;
+  }
+  
+  /* Define o estilo das células da tabela */
+  mat-cell {
+    text-align: left;
+  }
+  
+  /* Define o estilo dos botões da tabela */
+  mat-icon-button {
+    height: 32px;
+    width: 32px;
+  }
+  
+  /* Define o estilo do botão de adicionar usuário */
+  mat-card-actions button {
+    margin-top: 16px;
+  }
+  
+  /* Define o estilo do diálogo de edição de usuário */
+  mat-dialog-container {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Define o estilo do conteúdo do diálogo */
+  app-user-dialog {
+    background-color: #fff;
+    padding: 16px;
+    box-sizing: border-box;
+  }
+  
+  /* Define o estilo do título do diálogo */
+  app-user-dialog mat-dialog-title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 16px;
+  }
+  
+  /* Define o estilo dos campos do formulário no diálogo */
+  app-user-dialog mat-form-field {
+    width: 100%;
+  }
+  
+  
